@@ -1,4 +1,14 @@
 # sushant-
+"111" in base 2 = 1×4 + 1×2 + 1×1 = 7
+"213" in base 4 = 2×16 + 1×4 + 3×1 = 39
+
+Step : Lagrange Formula
+For each point (xi, yi), calculate:
+Li(0) = yi × ∏(0-xj)/(xi-xj) for all j≠i
+Secret = Sum of all Li(0)
+
+
+
 #include <iostream>
 #include <string>
 #include <vector>
